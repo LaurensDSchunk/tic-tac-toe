@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+html, body {
+	font-family: 'Comfortaa', cursive;
+  height: 100%;
+  width: 100%;
+	margin: 0;
+	text-align: center;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+	background-color: white;
+}
+
+#gameBoard {
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 8vmin;
+	border: solid black 5px;
+	background-color: black;
+	border-radius: 20px;
+	table-layout:fixed;
+	
+}
+#gameBoard td {	
+	border-radius: 20px;
+	margin: 0;
+	width: 20vmin;
+	height: 20vmin;
+	border: solid black 5px;
+	background-color: white;
+	outline: none;
+}
+#info {
+	margin: 20px;
+	width: 60vmin;
+}
+h1 {
+	margin: 15px;
+	font-size: 5vmin;
+}
+p {
+	margin-top:0;
+	font-size: 3vmin; 
+}
+
+
+button {
+	color: black;
+	width: 49%;
+	padding: 5px;
+	border: solid black 2px;
+	border-radius: 10px;
+	background-color: white;
+	margin-bottom: 5px;
+	font-size: 3vmin;
+}
